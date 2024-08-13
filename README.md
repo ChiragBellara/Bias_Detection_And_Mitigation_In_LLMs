@@ -1,3 +1,5 @@
+<a id="readme-top"></a>
+
 <div align="center">
   <h1 align="center">Bias Detection and Mitigation in Large Language Models.</h1>
 </div>
@@ -23,6 +25,8 @@ This project aims to systematically identify, quantify, and mitigate the biases 
   <li><b>Bias Mitigation Strategies:</b>  Evaluate various strategies to minimize and mitigate biases, including data preprocessing, model fine-tuning, and post-processing techniques.</li>
 </ol>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Methodology
 In this study, we will be exploring three major fronts of bias and mitigation in large language models. For each of these fronts, we will be following certain methodologies and experiments that would give us further insight into the data, the behavior of the models, and the patterns being used to generate this biased text.
 <ol>
@@ -36,6 +40,8 @@ The methodology involves using benchmark datasets like CrowS-Pairs and BOLD that
     
 The key strategies to mitigate biases in large language models involve data augmentation and optimization techniques. Counterfactual data augmentation (CDA) aims to reduce biases by generating counterfactual examples that challenge stereotypical assumptions during fine-tuning. Toolkits like AI Fairness 360 provide a range of pre-processing, in-processing, and post-processing methods to modify the training data, learning procedure, or model outputs to align with fairness constraints.</li>
 </ol>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Results
 ### Project Update 1
@@ -61,4 +67,8 @@ In Update 1, we successfully demonstrated that large language models do exhibit 
 </div>
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## Conclusion
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
