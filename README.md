@@ -50,4 +50,15 @@ For this update, we concentrated on conducting literature reviews and examining 
 ### Project Update 2
 In Update 1, we successfully demonstrated that large language models do exhibit biases in their responses. The next critical question is: to what extent are these models biased? For Project Update 2, we advanced to the next phase—quantifying this bias. We explored various methods for assigning a numerical value to measure the degree of bias in the models. To achieve this, we employed the Stereotype Log-Probability Score and utilized Hugging Face's Evaluate library to quantify the bias effectively.
 
+<div align="center">
+    <img width="720" alt="image" src="https://github.com/user-attachments/assets/f65e2ef5-97ad-433f-82bc-ba89f774b56a">
+    <div>Bias scores for various models, calculated using the Evaluate library.</div>
+</div>
+</br></br>
+<div align="center">
+    <img width="720" alt="image" src="https://github.com/user-attachments/assets/1fc1cde7-d450-4fec-8b32-f4d354d69f91">
+    <div>Stereotype and Anti-stereotype scores for various models, </br>calculated using log-probability of the model producing a stereotyped outcome.</div>
+</div>
+
+
 ## Conclusion
