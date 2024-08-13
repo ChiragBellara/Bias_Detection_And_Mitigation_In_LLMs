@@ -39,6 +39,9 @@ The key strategies to mitigate biases in large language models involve data augm
 
 ## Results
 ### Project Update 1
-For this update, we concentrated on conducting literature reviews and examining existing research on bias detection in language models. Our methodology is divided into three phases, and in this first phase, we focused on scrutinizing potential biases. Specifically, we explored various techniques and approaches to intentionally prompt widely-used large language models (LLMs) to produce biased outcomes.
+For this update, we concentrated on conducting literature reviews and examining existing research on bias detection in language models. Our methodology is divided into three phases, and in this first phase, we focused on scrutinizing potential biases. Specifically, we explored various techniques and approaches to intentionally prompt widely used large language models (LLMs) to produce biased outcomes.
+
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/a9afef67-3d8a-4089-9717-f8e7a3a96ad6">
+
 
 ## Conclusion
