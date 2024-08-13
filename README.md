@@ -41,8 +41,13 @@ The key strategies to mitigate biases in large language models involve data augm
 ### Project Update 1
 For this update, we concentrated on conducting literature reviews and examining existing research on bias detection in language models. Our methodology is divided into three phases, and in this first phase, we focused on scrutinizing potential biases. Specifically, we explored various techniques and approaches to intentionally prompt widely used large language models (LLMs) to produce biased outcomes.
 
-<img width="482" alt="image" src="https://github.com/user-attachments/assets/a332dbcd-d49a-45f6-9686-b08947f9992a">
+<div align="center">
+    <img width="720" alt="image" src="https://github.com/user-attachments/assets/a332dbcd-d49a-45f6-9686-b08947f9992a">
+    <div>Pre-trained language models exhibit diverse viewpoints on social and economic issues.</div>
+</div>
 
 
+### Project Update 2
+In Update 1, we successfully demonstrated that large language models do exhibit biases in their responses. The next critical question is: to what extent are these models biased? For Project Update 2, we advanced to the next phase—quantifying this bias. We explored various methods for assigning a numerical value to measure the degree of bias in the models. To achieve this, we employed the Stereotype Log-Probability Score and utilized Hugging Face's Evaluate library to quantify the bias effectively.
 
 ## Conclusion
