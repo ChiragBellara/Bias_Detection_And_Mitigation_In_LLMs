@@ -1,4 +1,7 @@
-# Bias Detection and Mitigation in Large Language Models.
+<div align="center">
+  <h1 align="center">Bias Detection and Mitigation in Large Language Models.</h1>
+</div>
+
 
 ## Technologies Used
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/)
@@ -7,7 +10,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 
-## Overview:
+## Overview
 Large language models (LLMs) have revolutionized the field of natural language processing, enabling remarkable capabilities in text generation, question answering, and language understanding. However, these powerful models, trained on vast amounts of data, can unintentionally learn and perpetuate societal biases present in their training corpus. These biases can manifest as unfair or discriminatory patterns in the model’s outputs, potentially leading to harmful outcomes and undermining trust in AI systems.
 
 ## Problem Statement
@@ -35,5 +38,7 @@ The key strategies to mitigate biases in large language models involve data augm
 </ol>
 
 ## Results
+### Project Update 1
+For this update, we concentrated on conducting literature reviews and examining existing research on bias detection in language models. Our methodology is divided into three phases, and in this first phase, we focused on scrutinizing potential biases. Specifically, we explored various techniques and approaches to intentionally prompt widely-used large language models (LLMs) to produce biased outcomes.
 
 ## Conclusion
