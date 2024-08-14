@@ -66,9 +66,14 @@ In Update 1, we successfully demonstrated that large language models do exhibit 
     <div>Stereotype and Anti-stereotype scores for various models, </br>calculated using log-probability of the model producing a stereotyped outcome.</div>
 </div>
 
+### Project Update 3
+Now that we have proven the presence of bias and also quantified the bias present, the last step is to suggest strategies to minimize the bias. For this, we present two methods,
+1. Counterfactual Data Augmentation
+2. IBM's AI Fairness 360 toolkit
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Conclusion
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
