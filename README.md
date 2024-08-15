@@ -2,6 +2,13 @@
 
 <div align="center">
   <h1 align="center">Bias Detection and Mitigation in Large Language Models.</h1>
+  <p align="center">
+    59000 - Natural Language Processing - Course Project
+    <br />
+    <a href="https://drive.google.com/file/d/17IynSk9rBw3OMHv82-6pjB19FUnHEtSe/view?usp=sharing"><strong>Read the research paper.</strong></a>
+    <br />
+    <br />
+  </p>
 </div>
 
 
@@ -44,7 +51,7 @@ The key strategies to mitigate biases in large language models involve data augm
 
 
 ## Results
-### Project Update 1
+### Project Update 1 <a href="https://drive.google.com/file/d/1dqVSAQBZr8m33EoGMpEvacNe_XNk6Pk2/view?usp=sharing"><strong>(Paper)</strong></a>
 For this update, we concentrated on conducting literature reviews and examining existing research on bias detection in language models. Our methodology is divided into three phases, and in this first phase, we focused on scrutinizing potential biases. Specifically, we explored various techniques and approaches to intentionally prompt widely used large language models (LLMs) to produce biased outcomes.
 
 <div align="center">
@@ -53,7 +60,7 @@ For this update, we concentrated on conducting literature reviews and examining 
 </div>
 
 
-### Project Update 2
+### Project Update 2 <a href="https://drive.google.com/file/d/1vvZukZ8KboI8p7IAEMy6G5tDOvi3xyX1/view?usp=sharing"><strong>(Paper)</strong></a>
 In Update 1, we successfully demonstrated that large language models do exhibit biases in their responses. The next critical question is: to what extent are these models biased? For Project Update 2, we advanced to the next phase—quantifying this bias. We explored various methods for assigning a numerical value to measure the degree of bias in the models. To achieve this, we employed the Stereotype Log-Probability Score and utilized Hugging Face's Evaluate library to quantify the bias effectively.
 
 <div align="center">
@@ -67,13 +74,15 @@ In Update 1, we successfully demonstrated that large language models do exhibit 
 </div>
 
 ### Project Update 3
-Now that we have proven the presence of bias and also quantified the bias present, the last step is to suggest strategies to minimize the bias. For this, we present two methods,
-1. Counterfactual Data Augmentation
-2. IBM's AI Fairness 360 toolkit
-
-
+Having established both the presence and extent of bias in these language models, the final step is to propose strategies for mitigating it. Recognizing that the bias in model outcomes largely stems from the inherent biases within the training data, our objective is to pre-process this data to eliminate these underlying biases. To achieve this, we recommend two specific methods:
+1. <b>Counterfactual Data Augmentation</b></br>
+  We augment the training data by adding new samples derived from the existing data, making controlled adjustments to challenge potential biases. This approach prevents the model from associating specific data with particular groups, thereby reducing bias. For example, we generate sentences that depict people in non-stereotypical roles, such as, "John, a skilled nurse, gently tended to the elderly patient's wounds." This ensures that the model learns to avoid reinforcing stereotypes.
+2. <b>IBM's AI Fairness 360 toolkit</b></br>
+The AI Fairness 360 (AIF360) toolkit is an extensible open-source library that offers a range of techniques developed by the research community to detect and mitigate bias in machine learning models throughout the AI application lifecycle. This toolkit allows users to assess their models for various biases and apply techniques to reduce these biases, fostering fairer, more equitable, and trustworthy AI systems. By integrating AIF360 into our workflow, we can effectively identify and mitigate data-based biases during the pre-processing steps, ensuring a more balanced foundation for model training.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Conclusion
+The evaluated models exhibit varying degrees of bias, with ALBERT showing the highest levels of bias across all three metrics. ALBERT's extensive parameter count may have inadvertently magnified the biases present in its pre-training data, enabling it to capture and amplify biased patterns more effectively.
+In contrast, GPT demonstrated the best performance with the least bias. While smaller models like XLNet may show reduced biases, their overall performance and ability to handle complex tasks could be limited compared to their larger counterparts.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
