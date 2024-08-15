@@ -5,7 +5,7 @@
   <p align="center">
     59000 - Natural Language Processing - Course Project
     <br />
-    <a href="https://drive.google.com/file/d/17IynSk9rBw3OMHv82-6pjB19FUnHEtSe/view?usp=sharing"><strong>Read the research paper.</strong></a>
+    <a href="https://github.com/ChiragBellara/Bias_Detection_And_Mitigation_In_LLMs/blob/main/Outcomes/Bias_and_Mitigation_in_LLMs.pdf"><strong>Read the research paper.</strong></a>
     <br />
     <br />
   </p>
@@ -51,7 +51,7 @@ The key strategies to mitigate biases in large language models involve data augm
 
 
 ## Results
-### Project Update 1 <a href="https://drive.google.com/file/d/1dqVSAQBZr8m33EoGMpEvacNe_XNk6Pk2/view?usp=sharing"><strong>(Paper)</strong></a>
+### Project Update 1 <a href="https://github.com/ChiragBellara/Bias_Detection_And_Mitigation_In_LLMs/blob/main/Outcomes/Project_Update_1.pdf"><strong>(Paper)</strong></a>
 For this update, we concentrated on conducting literature reviews and examining existing research on bias detection in language models. Our methodology is divided into three phases, and in this first phase, we focused on scrutinizing potential biases. Specifically, we explored various techniques and approaches to intentionally prompt widely used large language models (LLMs) to produce biased outcomes.
 
 <div align="center">
@@ -60,7 +60,7 @@ For this update, we concentrated on conducting literature reviews and examining 
 </div>
 
 
-### Project Update 2 <a href="https://drive.google.com/file/d/1vvZukZ8KboI8p7IAEMy6G5tDOvi3xyX1/view?usp=sharing"><strong>(Paper)</strong></a>
+### Project Update 2 <a href="https://github.com/ChiragBellara/Bias_Detection_And_Mitigation_In_LLMs/blob/main/Outcomes/Project_Update_2.pdf"><strong>(Paper)</strong></a>
 In Update 1, we successfully demonstrated that large language models do exhibit biases in their responses. The next critical question is: to what extent are these models biased? For Project Update 2, we advanced to the next phase—quantifying this bias. We explored various methods for assigning a numerical value to measure the degree of bias in the models. To achieve this, we employed the Stereotype Log-Probability Score and utilized Hugging Face's Evaluate library to quantify the bias effectively.
 
 <div align="center">
